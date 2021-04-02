@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: chipper-chicken
+Version: 0.0.2
+Summary: Cryptography chipper for python
+Home-page: https://github.com/Madhava-mng/Chipper-chicken
+Author: Madhava-mng
+Author-email: alformint@gmail.com
+License: UNKNOWN
+Description: Cryptography chipper module for python
+        
+        
+        ## Installation
+        
+        ```bash
+        $ python3 -m pip install chipper-chicken
+        ```
+        
+        ##import:
+        
+        ```python
+            >>> from chipperchicken import encrypt
+            >>> from chipperchicken import decrypt
+        ```
+        
+        ##encrypt:
+        
+        
+        ```python
+            >>> e = encrypt(b'data',  'secret', 600)
+        ```
+        
+        ##decrypt:
+        
+        
+        ```python
+            >>> decrypt(e, 'secret', 600)
+            'data'
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

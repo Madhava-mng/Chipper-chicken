@@ -1,0 +1,9 @@
+README.md
+setup.py
+chipper_chicken.egg-info/PKG-INFO
+chipper_chicken.egg-info/SOURCES.txt
+chipper_chicken.egg-info/dependency_links.txt
+chipper_chicken.egg-info/requires.txt
+chipper_chicken.egg-info/top_level.txt
+chipperchicken/__init__.py
+chipperchicken/main.py
